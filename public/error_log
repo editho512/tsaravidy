@@ -1,0 +1,238 @@
+[18-May-2021 15:40:54 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: Trying to get property 'name' of non-object in /home1/espacefiltre/tsaravidy/storage/framework/views/3acad5b8fc9a1f61b4f3504356674b7fde512d78.php:19
+Stack trace:
+#0 /home1/espacefiltre/tsaravidy/storage/framework/views/3acad5b8fc9a1f61b4f3504356674b7fde512d78.php(19): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Trying to get p...', '/home1/espacefi...', 19, Array)
+#1 /home1/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home1/espacefi...')
+#2 /home1/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home1/espacefi...', Array)
+#3 /home1/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/home1/espacefi...', Array)
+#4 /home1/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/View.php(125): Illuminate\View\View->getCont in /home1/espacefiltre/tsaravidy/storage/framework/views/3acad5b8fc9a1f61b4f3504356674b7fde512d78.php on line 19
+[18-May-2021 15:40:54 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: Trying to get property 'name' of non-object in /home1/espacefiltre/tsaravidy/storage/framework/views/3acad5b8fc9a1f61b4f3504356674b7fde512d78.php:19
+Stack trace:
+#0 /home1/espacefiltre/tsaravidy/storage/framework/views/3acad5b8fc9a1f61b4f3504356674b7fde512d78.php(19): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Trying to get p...', '/home1/espacefi...', 19, Array)
+#1 /home1/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home1/espacefi...')
+#2 /home1/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home1/espacefi...', Array)
+#3 /home1/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/View.php(142): Illuminate\View\Engines\CompilerEngine->get('/home1/espacefi...', Array)
+#4 /home1/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/View.php(125): Illuminate\View\View->getCont in /home1/espacefiltre/tsaravidy/storage/framework/views/3acad5b8fc9a1f61b4f3504356674b7fde512d78.php on line 19
+[30-Sep-2021 08:49:40 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[30-Sep-2021 08:49:40 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[30-Sep-2021 08:51:12 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[30-Sep-2021 08:51:12 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[05-Oct-2021 01:21:40 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[05-Oct-2021 14:24:28 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[05-Oct-2021 14:59:17 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[05-Oct-2021 14:59:37 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[05-Oct-2021 14:59:46 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[05-Oct-2021 14:59:46 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[08-Oct-2021 01:00:29 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[08-Oct-2021 04:31:28 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[08-Oct-2021 05:51:00 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[09-Oct-2021 13:58:44 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[11-Oct-2021 08:58:19 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[11-Oct-2021 08:58:28 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[11-Oct-2021 08:58:34 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[11-Oct-2021 08:58:46 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[11-Oct-2021 08:59:57 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[11-Oct-2021 08:59:57 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[11-Oct-2021 08:59:57 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[11-Oct-2021 08:59:59 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[11-Oct-2021 08:59:59 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[11-Oct-2021 08:59:59 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[11-Oct-2021 09:00:00 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[11-Oct-2021 09:00:00 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[11-Oct-2021 09:00:00 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[11-Oct-2021 09:00:00 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[11-Oct-2021 09:00:00 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[11-Oct-2021 09:00:02 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[11-Oct-2021 09:01:10 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
+[11-Oct-2021 09:04:34 Africa/Nairobi] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home1/espacefiltre/tsaravidy/storage/framework/views/05480b995e8305c8543226f8b1aa3d7e0481d210.php): failed to open stream: No such file or directory in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:122
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/espacefil...', 122, Array)
+#1 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(122): file_put_contents('/home1/espacefi...', '<?php $__env->s...', 0)
+#2 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(140): Illuminate\Filesystem\Filesystem->put('/home1/espacefi...', '<?php $__env->s...')
+#3 /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/espacefil...')
+#4 /home/espacefiltre/tsaravi in /home/espacefiltre/tsaravidy/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 122
